@@ -1,0 +1,44 @@
+html {
+    height: 100% /* This is get rid of gray screen if background no-repeat is put to no-repeat */
+}
+
+body {
+    background-color: rgb(46, 46, 46);
+    background-image: url(images/background-adare-restaurant.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.container {
+    margin-left:auto;
+    margin-right:auto;
+    width: 1024px;
+
+}
+
+header {
+    height: 118px;
+    text-align: center;
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0.308); /* 4th dimension is transparency */
+    /* height:40px; */
+    text-align: center;
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+
+a {
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    /* text-decoration: none; */
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 12px;
+    padding-left: 10px;
+    padding-right:10px;
+}
